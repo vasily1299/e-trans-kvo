@@ -158,9 +158,10 @@ img, svg{
     background-position: top right;
     background-repeat: no-repeat;
     /* padding-top: 157px; */
-    padding-bottom: 120px;
+    /* padding-bottom: 120px; */
     color: black;
-    margin-bottom: 60px;
+    height: 100vh;
+    /* margin-bottom: 60px; */
 }
 
 .hero__title {
