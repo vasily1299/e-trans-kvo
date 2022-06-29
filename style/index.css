@@ -153,12 +153,7 @@ img, svg{
 }
 
 .hero{
-    background-image: url('../img/bgNinebot\ 1.png');
-    background-size: 500px;
-    background-position: top right;
-    background-repeat: no-repeat;
-    /* padding-top: 157px; */
-    padding-bottom: 60px;
+    
     color: black;
    /*  height: 100vh; */
     /* margin-bottom: 60px; */
@@ -167,6 +162,12 @@ img, svg{
 .hero__container{
     display: flex;
     flex-direction: row;
+    background-image: url('../img/bgNinebot\ 1.png');
+    background-size: 500px;
+    background-position: top right;
+    background-repeat: no-repeat;
+    /* padding-top: 157px; */
+    padding-bottom: 60px;
 }
 
 .feature-speed, .feature-power{
@@ -176,11 +177,11 @@ img, svg{
 }
 .feature-speed{
     margin-top: 178px;
-    margin-left: 158px;
+    margin-left: 152px;
 }
 .feature-power{
     margin-top: 40px;
-    margin-left: 467px;
+    margin-left: 456px;
 }
 
 .speed,.power{
