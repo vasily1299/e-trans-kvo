@@ -154,14 +154,61 @@ img, svg{
 
 .hero{
     background-image: url('../img/bgNinebot\ 1.png');
-    background-size: 75vh;
+    background-size: 500px;
     background-position: top right;
     background-repeat: no-repeat;
     /* padding-top: 157px; */
-    /* padding-bottom: 120px; */
+    padding-bottom: 60px;
     color: black;
-    height: 100vh;
+   /*  height: 100vh; */
     /* margin-bottom: 60px; */
+}
+
+.hero__container{
+    display: flex;
+    flex-direction: row;
+}
+
+.feature-speed, .feature-power{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+.feature-speed{
+    margin-top: 178px;
+    margin-left: 158px;
+}
+.feature-power{
+    margin-top: 40px;
+    margin-left: 467px;
+}
+
+.speed,.power{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    /* padding: 32px 28px; */
+   /*  gap: 8px; */
+    width: 292px;
+    height: 108px;
+    background-color: #FBFBFB;
+    box-shadow: 0px 100px 80px rgba(155, 161, 167, 0.07), 0px 41.7776px 33.4221px rgba(155, 161, 167, 0.0503198), 0px 22.3363px 17.869px rgba(155, 161, 167, 0.0417275), 0px 12.5216px 10.0172px rgba(155, 161, 167, 0.035), 0px 6.6501px 5.32008px rgba(155, 161, 167, 0.0282725), 0px 2.76726px 2.21381px rgba(155, 161, 167, 0.0196802);
+    border-radius: 32px;
+}
+.speed img, .power img{
+    width: 112px;
+}
+.speed-text,.power-text{
+    font-size: 18px;
+    width: 150px;
+}
+.line-speed,.line-power{
+    border: 1px dashed rgba(0, 0, 0, 0.35);
+    width: 41px;
+}
+.point-speed, .point-power{
+    width: 27px;
+    height: 29px;
 }
 
 .hero__title {
