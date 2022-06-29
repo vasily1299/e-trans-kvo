@@ -177,11 +177,11 @@ img, svg{
 }
 .feature-speed{
     margin-top: 178px;
-    margin-left: 152px;
+    margin-left: 82px;
 }
 .feature-power{
     margin-top: 40px;
-    margin-left: 456px;
+    margin-left: 386px;
 }
 
 .speed,.power{
@@ -224,7 +224,7 @@ img, svg{
     font-size: 20px;
     margin-bottom: 60px;
     color: rgba(0, 0, 0, 0.65);
-    max-width: 450px;
+    width: 450px;
 }
 .hero__btn {
     min-width: 380px;
